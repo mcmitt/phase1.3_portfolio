@@ -75,6 +75,7 @@ hr {
 }
 #footer {
     padding: 10px;
+    font-size: large;
     color: wheat;
     background-color: rgb(125, 20, 20);
 }
@@ -83,7 +84,7 @@ hr {
     font-style: italic;
 }
 #footer p {
-    padding: 5px 15%;
+    padding: 0.5em 20%;
     text-align: right;
 }
 

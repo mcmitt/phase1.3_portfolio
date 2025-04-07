@@ -18,3 +18,16 @@ creating a simple yet responsive personal portfolio webpage.
   <span style="color: royalblue;">\<section></span>.
 - Any images should have alt attributes for
   accessibility.
+
+## Design Choices
+- I decided to use a fictional character for the subject and not myself.
+- The structure includes separate <span style="color: royalblue;">\<section></span> tags for each type of content.
+- The color schemes include:
+  - Light and dark brown background colors.
+  - Wheat foreground color.
+  - Goldenrod hover decorations on URLs.
+- The top bar with the image and name have a flex-direction of columns:
+  - The nav bar is sticky.
+  - The nav bar has a flex-direction of row.
+  - The nav bar is responsive and will change to flex-direction column if the window size is decreased below 400px in width.
+- I added this readme.md as requested to help with understanding the project.

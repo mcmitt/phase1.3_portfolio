@@ -21,7 +21,24 @@ creating a simple yet responsive personal portfolio webpage.
 
 ## Design Choices
 - I decided to use a fictional character for the subject and not myself.
-- The structure includes separate <span style="color: royalblue;">\<section></span> tags for each type of content.
+- The structure outline is as follows:
+
+  ```
+  <html>
+    <body>
+      <header></header>
+      <nav></nav>
+      <section1></section1>
+      <section2></section2>
+      ...
+      <sectionN></sectionN>
+      <footer></footer>
+    </body>
+  </html>
+  ```
+
+
+- The main content section includes separate <span style="color: royalblue;">\<section></span> tags for each content type (About Me, Skills, Projects, Contact).
 - The color schemes include:
   - Light and dark brown background colors.
   - Wheat foreground color.

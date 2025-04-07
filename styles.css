@@ -20,11 +20,11 @@ hr {
     margin: 0;
     padding: 0;
 }
-#header {
+header {
     padding: 20px 0px;
     background-color: brown;
 }
-#header h1 {
+header h1 {
     color: wheat;
 }
 
@@ -67,27 +67,46 @@ hr {
     color: goldenrod;
     text-decoration: underline;
 }
+
+/** Each section has shared formatting*/
 .sect {
     margin: 10px;
 }
 .sect p {
-    padding: 20px 20px;
+    padding: 5px 20px;
 }
-#footer {
+.sect li {
+    padding: 5px 0;
+}
+.skill {
+    font-weight: bold;
+    font-style: italic;
+}
+.L1 {
+    padding: 10px 0 20px 40px;
+    list-style: disc;
+}
+.L2 {
+    padding: 0 0 0 30px;
+    list-style-type: circle;
+}
+/** The footer finishes the page*/
+footer {
     padding: 10px;
     font-size: large;
     color: wheat;
     background-color: rgb(125, 20, 20);
 }
-#footer blockquote {
+footer blockquote {
     font-weight: bold;
     font-style: italic;
 }
-#footer p {
-    padding: 0.5em 20%;
+footer p {
+    padding: 0.5em 10%;
     text-align: right;
 }
 
+/** Using a media query allows for responsive design */
 @media (max-width: 400px) {
     .nav {
         height: 80px;

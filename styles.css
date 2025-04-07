@@ -74,8 +74,17 @@ hr {
     padding: 20px 20px;
 }
 #footer {
+    padding: 10px;
+    color: wheat;
     background-color: rgb(125, 20, 20);
-    height: 50px;
+}
+#footer blockquote {
+    font-weight: bold;
+    font-style: italic;
+}
+#footer p {
+    padding: 5px 15%;
+    text-align: right;
 }
 
 @media (max-width: 400px) {
